@@ -1,5 +1,6 @@
 require "franky/version"
+require "franky/generator"
 
 module Franky
-  # Your code goes here...
+
 end
