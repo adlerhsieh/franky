@@ -8,17 +8,19 @@ Gem::Specification.new do |spec|
   spec.version       = Franky::VERSION
   spec.authors       = ["Adler"]
   spec.email         = ["nkj20932@hotmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Generates a minimal Sinatra project}
+  spec.description   = %q{Generates a minimal Sinatra project that contains only three necessary files}
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  # spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = Dir["README.md","Gemfile","Rakefile", "test/*", "lib/*", "lib/*/*"]
   spec.executables   = "franky"
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "thor", "~> 0.19.1"
+  spec.add_development_dependency "thor", "~> 0.19"
+  spec.add_development_dependency "colorize", "~> 0"
 end
