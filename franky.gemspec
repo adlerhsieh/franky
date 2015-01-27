@@ -6,11 +6,11 @@ require 'franky/version'
 Gem::Specification.new do |spec|
   spec.name          = "franky"
   spec.version       = Franky::VERSION
-  spec.authors       = ["Adler"]
+  spec.authors       = ["Adler Hsieh"]
   spec.email         = ["nkj20932@hotmail.com"]
   spec.summary       = %q{Generates a minimal Sinatra project}
-  spec.description   = %q{Generates a minimal Sinatra project that contains only three necessary files}
-  spec.homepage      = ""
+  spec.description   = %q{Generates a Sinatra project containing only necessary files}
+  spec.homepage      = "https://github.com/nkj20932/franky"
   spec.license       = "MIT"
 
   # spec.files         = `git ls-files -z`.split("\x0")
