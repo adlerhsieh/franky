@@ -56,7 +56,8 @@ This template includes 3 parts:
 <p style="color: blue">2. The app</p>
 
 - app/app.rb
-- app/views/index.html.erb 
+- app/views/layout.html.erb
+- app/views/index.html.erb
 
 <p style="color: blue">3. Assets</p>
 
@@ -74,7 +75,7 @@ This is the minimal requirement for deployment. Check the following part if you 
 
 ## Initialization 開始 
 
-After generation, enter the project, run `$ bundle` and you are all set. Use `$ rackup` or `$ shotgun` to run local server as usual.
+After generation, enter the project, run `$ bundle` and you are all set. Use `$ rackup` or `$ shotgun` to run local server as usual. You should see "hello world" if everything works fine.
 
 ## Deployment 佈署
 
