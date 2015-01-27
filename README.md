@@ -1,6 +1,8 @@
 # Franky
 
-A site generator for minimal Sinatra template. Check [Sinatra](http://www.sinatrarb.com/) if you don't know what it is.
+A site generator that builds a minimal Sinatra app in very few commands. Developers are able to test any idea online efficiently.
+
+The installization and configuration are extremely easy with the help of Rack & Sinatra. Check [Sinatra](http://www.sinatrarb.com/) if you don't know what it is.
 
 ## Installation 安裝
 
@@ -75,7 +77,9 @@ This is the minimal requirement for deployment. Check the following part if you 
 
 ## Initialization 開始 
 
-After generation, enter the project, run `$ bundle` and you are all set. Use `$ rackup` or `$ shotgun` to run local server as usual. You should see "hello world" if everything works fine.
+After generation, enter the project, run `$ bundle` and you are all set. Use `$ rackup` or `$ shotgun` to run local server as usual. You should see "hello world" as you enter `http://localhost:9292` (`9393` with shotgun) if everything works fine.
+
+`$ rm -rf my_project` will remove the entire project. Quick and clean.
 
 ## Deployment 佈署
 
