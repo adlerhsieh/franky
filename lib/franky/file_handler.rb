@@ -42,7 +42,7 @@ class FileHandler
 		FileHandler.copy "Gemfile", dir_name, "Gemfile"
 		puts "Created ".green + "#{dir_name}/Gemfile"
 
-		File.open("#{dir_name}/README.md", 'w+')
+		File.open("#{dir_name}/README.md", 'w+') {|f| f.write("\nPowered by [Franky](https://github.com/nkj20932/franky)")}
 		puts "Created ".green + "#{dir_name}/README.md"
 
 		Dir.mkdir "#{dir_name}/app"
