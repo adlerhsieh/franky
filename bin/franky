@@ -2,4 +2,4 @@
 
 require 'franky'
 
-Franky::Generator.start ARGV
+Franky::Base.start ARGV
