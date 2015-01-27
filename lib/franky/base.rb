@@ -5,6 +5,7 @@ require 'colorize'
 module Franky
 	class Base < Thor
 
+		default_task :new
 		desc "new [dir_name] [options]", "creates a project with minimal setup"
 		option :minimal, type: :boolean, default: false, aliases: "-m"
 		def new dir_name=nil
