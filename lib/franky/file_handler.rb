@@ -15,7 +15,7 @@ class FileHandler
 
 	def minimal_template dir_name
 		prepare_file_contents
-		puts "Creating project '#{dir_name}'..."
+		puts "Creating minimal Sinatra project '#{dir_name}'..."
 
 		Dir.mkdir dir_name
 		puts "Created ".green + "#{dir_name}/"
@@ -29,6 +29,6 @@ class FileHandler
 		FileHandler.create dir_name, "app.rb", @app_rb
 		puts "Created ".green + "#{dir_name}/app.rb"
 
-		puts "Done"
+		puts "Done!"
 	end
 end
