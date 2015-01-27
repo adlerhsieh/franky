@@ -17,6 +17,8 @@ module Franky
 
 			if options[:minimal]
 				FileHandler.new.minimal_template(dir_name)
+			else
+				FileHandler.new.default_template(dir_name)
 			end
 		end
 
