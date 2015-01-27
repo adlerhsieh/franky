@@ -25,16 +25,6 @@ $ franky new my_project
 
 Replace "my_project" with your project name.
 
-### Bundle
-
-After generation, enter the project and run: 
-
-```
-$ bundle
-```
-
-and you are all set. 
-
 ## Configuration 設定
 
 There are two templates: default template & minimal template. They can be specified in commands.
@@ -81,6 +71,10 @@ It contains only 3 files:
 - config.ru
 
 This is the minimal requirement for deployment. Check the following part if you want to deploy to Heroku.
+
+## Initialization 開始 
+
+After generation, enter the project, run `$ bundle` and you are all set. Use `$ rackup` or `$ shotgun` to run local server as usual.
 
 ## Deployment 佈署
 
